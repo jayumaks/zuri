@@ -1,0 +1,49 @@
+body {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  width: 100%;
+}
+.contain {
+  background-color: rgb(9, 11, 24);
+  margin: 50px 50px;
+  padding: 90px 90px;
+  height: 50vh;
+  width: 50%;
+}
+.container {
+  display: grid;
+  grid-template-areas:
+    "a a a b b"
+    "a a a b b"
+    "c c d d d"
+    "c c e e e";
+  gap: 5px 5px;
+  width: 100%;
+}
+.container div {
+  padding: 60px;
+  text-align: center;
+}
+.one {
+  background-color: #eb5023;
+  grid-area: a;
+}
+.two {
+  background-color: #fba52f;
+  grid-area: b;
+}
+.three {
+  background-color: #51ab43;
+  grid-area: c;
+}
+.four {
+  background-color: #05aefb;
+  grid-area: d;
+}
+.five {
+  background-color: #05aefb;
+  grid-area: e;
+}

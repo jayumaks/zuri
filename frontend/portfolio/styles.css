@@ -1,0 +1,24 @@
+body{
+    top: 0%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: image();
+}
+
+.logo{
+    float: left;
+}
+.login{
+    float: right;
+}
+.navBar{
+    padding-top:50px;
+    text-align: center;
+}
+.nav li{
+    float: left;
+    list-style: none;
+    margin: 20px;
+}
+

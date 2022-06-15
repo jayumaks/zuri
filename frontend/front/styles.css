@@ -1,0 +1,77 @@
+body {
+    top: 0;
+    background-color: white;
+    width: 100%;
+    font-family: 'sans serif';
+}
+
+.body {
+    background-color: #f0f2ec;
+    width: 60%;
+}
+
+header {
+    background-color: #444444;
+    padding: 0.016px;
+}
+
+header p {
+    color: #b8bab4;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    width: 100%;
+}
+
+.hea h2 {
+    font-weight: unset;
+    color: #6d6d6b;
+}
+
+ul {
+    text-align: center;
+}
+
+.rad {
+    margin-left: 300px;
+}
+
+.radi {
+    list-style-type: none;
+    text-align: justify;
+}
+
+input {
+    position: relative;
+    vertical-align: middle;
+}
+
+.radi li {
+    line-height: 30px;
+    color: #6d6d6b;
+}
+
+.butsel {
+    padding-top: 40px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+button {
+    background-color: #297e96;
+    padding: 20px;
+    border-style: none;
+    color: #f7f6f0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #78b7c8;
+}
+
+hr {
+    border-color: rgb(7, 7, 18);
+}
